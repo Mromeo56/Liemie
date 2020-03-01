@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931656373320",
+    "firebase_url": "https://liemie.firebaseio.com",
+    "project_id": "liemie",
+    "storage_bucket": "liemie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931656373320:android:226440c7bb75ea7504747d",
+        "android_client_info": {
+          "package_name": "com.example.liemie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931656373320-mql65vv212scrcfqn898jidplnd7416a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC56V7LsyUqg-9V6DbLSfSAEXsIn4Sm__E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931656373320-mql65vv212scrcfqn898jidplnd7416a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -36,10 +36,12 @@ public class MainFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         send = (Button)view.findViewById(R.id.btn_login);
+        usernmae = (EditText)view.findViewById(R.id.username);
+
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.println(Log.ERROR, "buf", "Click");
+                Log.println(Log.ERROR, "buf", usernmae.getText().toString());
             }
         });
         //send.findViewById(R.id.btn_login);
