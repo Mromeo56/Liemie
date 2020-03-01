@@ -34,25 +34,15 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-
         send = (Button)view.findViewById(R.id.btn_login);
-
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.println(Log.ERROR, "buf", "Click");
             }
         });
-
         //send.findViewById(R.id.btn_login);
-
-        return inflater.inflate(R.layout.fragment_main, container, false);
-
-
+        return view;
     }
-
-
-
 }
