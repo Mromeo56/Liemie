@@ -12,6 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.firebase.ui.auth.AuthUI;
+
+import java.util.Arrays;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +28,8 @@ public class MainFragment extends Fragment {
     Button send;
 
     View view;
+
+
 
     public MainFragment() {
         // Required empty public constructor
@@ -41,10 +47,12 @@ public class MainFragment extends Fragment {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.println(Log.ERROR, "buf", usernmae.getText().toString());
+
             }
         });
         //send.findViewById(R.id.btn_login);
         return view;
     }
+
+
 }
