@@ -21,10 +21,19 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.liemie.MainFragment;
+
 
 public class MainActivity extends AppCompatActivity{
 
     @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+    }
+
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -51,7 +60,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-   /*@Override
+   @Override
     public void onAttach(Context context){
         super.onAttach(context);
         this.createCallbackToParentActivity();
@@ -63,7 +72,7 @@ public class MainActivity extends AppCompatActivity{
         }catch (ClassCastException e){
             throw new ClassCastException(e.toString() +"must implement OnButtonClickedListener");
         }
-    }*/
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -78,5 +87,5 @@ public class MainActivity extends AppCompatActivity{
         //}
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }
