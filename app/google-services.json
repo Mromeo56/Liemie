@@ -15,6 +15,30 @@
       },
       "oauth_client": [
         {
+          "client_id": "931656373320-vep80mnn83copt2o073mk8q351kkfhj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liemie",
+            "certificate_hash": "f667a5ebf413a320a7462d9b55ee9983f16b1ed5"
+          }
+        },
+        {
+          "client_id": "931656373320-hvp798gh7k8rufnhck7d7l3cdn0cude6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liemie",
+            "certificate_hash": "cea6cc4bc18e703a46b505d59960b71e80b06714"
+          }
+        },
+        {
+          "client_id": "931656373320-5lu615mc2i342ios27cmiio0gpnerr7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liemie",
+            "certificate_hash": "3ca7ef1a4a23f5928c9640f114ef04651196eb4a"
+          }
+        },
+        {
           "client_id": "931656373320-t0ufn1t8sa9fnm9dfaog74bksgrd5v8i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
